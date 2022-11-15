@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="app">
+    <lxp v-for="item in items" v-bind:qwe="item"></lxp>
+
+</div>
+<Lxs></Lxs>
+
+<script src="https://unpkg.com/vue@2.7.10/dist/vue.js"></script>
+<script>
+    Vue.component("lxs",{
+        template: '<li>hello lxs</li>'
+    });
+    Vue.component("lxp",{
+        props:['qwe'],
+        template: '<li>{{qwe}}</li>'
+    });
+    var vm = new Vue({
+        el:"#app",
+        data:{
+            items:[1,2,3],
+            message:"你好李小胖！"
+        }
+    })
+</script>
+</body>
+</html>
