@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>站点分布</title>
+  <link rel="stylesheet" href="../css/siteDistribution.css">
+    <script src="https://cdn.highcharts.com.cn/highcharts/highcharts.js"></script>
+    <script src="https://cdn.highcharts.com.cn/highcharts/modules/exporting.js"></script>
+    <script src="https://cdn.highcharts.com.cn/highcharts/modules/series-label.js"></script>
+    <script src="https://cdn.highcharts.com.cn/highcharts/modules/oldie.js"></script>
+    <script src="https://code.highcharts.com.cn/highcharts-plugins/highcharts-zh_CN.js"></script>
+    <script src="../js/echarts.min.js"></script>
+    <script src="../bootstrap3/jquery-1.9.1.min.js"></script>
+
+  <script src="../js/allSkip1.js"></script>
+
+</head>
+<body>
+<div class="mainBox">
+  <div class="top">
+    <div class="topPhoto">
+    </div>
+    <div class="top1" id="top1" style="cursor: pointer;">
+        <div class="top1Text">智能环卫垃圾箱"管家"</div>
+    </div>
+    <div class="top2" id="top2" style="cursor: pointer;">
+      <div class="top2Text">站点查询</div>
+    </div>
+    <div class="top3" id="top3" style="cursor: pointer;">
+      <div class="top3Text">数据分析</div>
+    </div>
+    <div class="top4" id="top4" style="cursor: pointer;">
+      <div class="top4Text">解决方案</div>
+    </div>
+    <div class="top5" id="top5" style="cursor: pointer;">
+      <div class="top5Text">控制台</div>
+    </div>
+    <div class="searchBox">
+      <div class="rdi"></div>
+      <line class="line"></line>
+      <label>
+        <input type="text"  placeholder ="搜索"  autocomplete ="off" class="inputBox"></input>
+      </label>
+    </div>
+  </div>
+  <div class="distributionText">站点分布</div>
+  <div class="gpsText">垃圾箱站点GPS定位</div>
+  <div class="ovv" id="ovv" style="cursor: pointer;">
+    <div class="ovvText">总览</div>
+  </div>
+  <div class="dis" id="dis" style="cursor: pointer;">
+    <div class="disText">站点分布</div>
+  </div>
+  <div class="cap" id="cap" style="cursor: pointer;">
+    <div class="capText">装载容量</div>
+  </div>
+  <div class="con" id="con" style="cursor: pointer;">
+    <div class="conText">气体浓度</div>
+  </div>
+  <div class="state" id="state" style="cursor: pointer;">
+    <div class="stateText">清理状态</div>
+  </div>
+  <div class="downSearchBox">
+    <div class="downRdi"></div>
+    <line class="downLine"></line>
+    <label>
+      <input type="text"  placeholder ="搜索"  autocomplete ="off" class="inputBox"></input>
+    </label>
+  </div>
+  <div class="all1">
+    <div class="all1Text">全部</div>
+  </div>
+  <div class="province">省</div>
+  <div class="all2">
+    <div class="all1Text">全部</div>
+  </div>
+  <div class="town">市</div>
+  <div class="all3">
+    <div class="all1Text">全部</div>
+  </div>
+  <div class="area">区</div>
+  <div class="downWhite">
+    <div class="mapPhoto" id="container"></div>
+  </div>
+</div>
+<script src="../js/siteDistribution.js"></script>
+<!--<div id="container" style="max-width:800px;height:400px"></div>-->
+</body>
+</html>
