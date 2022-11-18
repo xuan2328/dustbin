@@ -1,0 +1,15 @@
+{
+  "data": [{
+    "name": "龙桥社区",
+    "clearedNumber": 23,
+    "unclearedNumber": 12
+  },{
+    "name": "1",
+    "clearedNumber": 11,
+    "unclearedNumber": 22
+  },{
+    "name": "1",
+    "clearedNumber": 21,
+    "unclearedNumber": 32
+  }]
+}

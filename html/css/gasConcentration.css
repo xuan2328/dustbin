@@ -1,0 +1,1106 @@
+.mainBox{
+
+    box-sizing: border-box;
+    margin: 200px auto;
+    position: relative;
+    width: 1728px;
+    height: 2694px;
+
+    background: rgba(208, 225, 184, 0.5);
+    border: 1px solid #000000;
+}
+.top{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 1728px;
+    height: 119px;
+    left: 0px;
+    top: 0px;
+
+    background: linear-gradient(0deg, #FFFFFF, #FFFFFF), #D9D9D9;
+    border: 1px solid #EDEDF1;
+}
+.down{
+    position: absolute;
+    width: 1728px;
+    height: 1003px;
+    left: 0px;
+    top: 119px;
+    background: url(../images/img.jpg) center;
+    background-size: contain;
+
+}
+.topPhoto{
+    position: absolute;
+    width: 88px;
+    height: 113px;
+    left: 0px;
+    top: 0px;
+    background: url(../images/logo.png);
+    background-size: contain;
+}
+.top1{
+    position: absolute;
+    top: 30px;
+    left: 67px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 10px;
+    gap: 10px;
+    text-align: center;
+    width: 333px;
+    height: 59px;
+
+    background: #FFFFFF;
+    border-radius: 20px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.top1Text{
+    white-space: nowrap;
+    top: 10px;
+    left: 10px;
+    width: 313px;
+    height: 39px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    /* identical to box height */
+
+
+    color: #000000;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.top2{
+    position: absolute;
+    top: 30px;
+    left: 452px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 10px;
+    gap: 10px;
+
+    width: 148px;
+    height: 59px;
+
+    background: #FFFFFF;
+    border-radius: 20px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.top2Text{
+    white-space: nowrap;
+    top: 10px;
+    left: 10px;
+    width: 128px;
+    height: 39px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    /* identical to box height */
+
+
+    color: #000000;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.top3{
+    position: absolute;
+    top: 30px;
+    left: 624px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 10px;
+    gap: 10px;
+
+    width: 148px;
+    height: 59px;
+
+    background: #FFFFFF;
+    border-radius: 20px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.top3Text{
+    white-space: nowrap;
+    top: 10px;
+    left: 10px;
+    width: 128px;
+    height: 39px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    /* identical to box height */
+
+
+    color: #000000;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.top4{
+    position: absolute;
+    top: 30px;
+    left: 816px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 10px;
+    gap: 10px;
+
+    width: 148px;
+    height: 59px;
+
+    background: #FFFFFF;
+    border-radius: 20px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.top4Text{
+    white-space: nowrap;
+    top: 10px;
+    left: 10px;
+    width: 128px;
+    height: 39px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    /* identical to box height */
+
+
+    color: #000000;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.top5{
+    position: absolute;
+    top: 30px;
+    left: 998px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 10px;
+    gap: 10px;
+
+    width: 148px;
+    height: 59px;
+
+    background: #FFFFFF;
+    border-radius: 20px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.top5Text{
+    white-space: nowrap;
+    top: 10px;
+    left: 10px;
+    width: 128px;
+    height: 39px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    /* identical to box height */
+
+
+    color: #000000;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.searchBox{
+    position: absolute;
+    top: 25px;
+    left: 1349px;
+    box-sizing: border-box;
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 0px 10px 10px;
+    gap: 10px;
+
+    position: absolute;
+    width: 339px;
+    height: 64px;
+    left: 1349px;
+    top: 25px;
+
+    background: #FFFFFF;
+    border: 1px solid #EDEDF1;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+}
+.rdi{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 19px;
+    top: 13px;
+
+    border: 1px solid #868C9F;
+    border-radius: 50%;
+}
+.line{
+    position: absolute;
+    width: 0px;
+    height: 22.27px;
+    left: 56.05px;
+    top: 28.83px;
+    transform: rotate(120deg);
+    text-align: center;
+    border: 0.5px solid #868C9F;
+}
+.inputBox{
+    position: absolute;
+    top: 10px;
+    left: 82px;
+
+    width: 72%;
+    height: 44px;
+    color: #868C9F;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 44px;
+    /* identical to box height */
+    outline: none;
+    border: none;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.distributionText{
+    position: absolute;
+    top: 207px;
+    left: 45px;
+    width: 192px;
+    height: 58px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 58px;
+    /* identical to box height */
+
+
+    color: #000000;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.gpsText{
+    position: absolute;
+    width: 325px;
+    height: 44px;
+    left: 45px;
+    top: 303px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 44px;
+    /* identical to box height */
+
+
+    color: #000000;
+
+}
+.ovv{
+    position: absolute;
+    top: 376px;
+    left: 35px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /*padding: 10px;*/
+    gap: 10px;
+
+    width: 206px;
+    height: 72px;
+
+    background: #FFFFFF;
+    border-radius: 20px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.ovvText{
+    color: #868C9F;
+    width: 64px;
+    height: 39px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    /* identical to box height */
+
+    text-align: center;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.dis{
+    position: absolute;
+    top: 376px;
+    left: 281px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /*padding: 10px;*/
+    gap: 10px;
+
+    width: 206px;
+    height: 72px;
+
+    background: #FFFFFF;
+    border-radius: 20px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.disText{
+    color: #868C9F;
+    width: 128px;
+    height: 39px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    /* identical to box height */
+
+    text-align: center;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.cap{
+    position: absolute;
+    top: 376px;
+    left: 527px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /*padding: 10px;*/
+    gap: 10px;
+
+    width: 206px;
+    height: 72px;
+
+    background: #FFFFFF;
+    border-radius: 20px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.capText{
+    color: #868C9F;
+    width: 128px;
+    height: 39px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    /* identical to box height */
+
+    text-align: center;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.con{
+    position: absolute;
+    top: 376px;
+    left: 773px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /*padding: 10px;*/
+    gap: 10px;
+
+    width: 206px;
+    height: 72px;
+    background: linear-gradient(0deg, #9EB356, #9EB356), linear-gradient(0deg, #5A66F9, #5A66F9), linear-gradient(0deg, #F7FAFA, #F7FAFA), #FFFFFF;
+    border-radius: 20px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.conText{
+    color:  #FFFFFF;
+
+    width: 128px;
+    height: 39px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    /* identical to box height */
+
+    text-align: center;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.state{
+    position: absolute;
+    top: 376px;
+    left: 1019px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /*padding: 10px;*/
+    gap: 10px;
+
+    width: 206px;
+    height: 72px;
+
+    background: #FFFFFF;
+    border-radius: 20px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.stateText{
+    color: #868C9F;
+
+    width: 128px;
+    height: 39px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    /* identical to box height */
+
+    text-align: center;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.downSearchBox{
+    position: absolute;
+    top: 478px;
+    left: 35px;
+    box-sizing: border-box;
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 0px 10px 10px;
+    gap: 10px;
+
+    width: 692px;
+    height: 64px;
+
+    background: #FFFFFF;
+    border: 1px solid #EDEDF1;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+}
+.downRdi{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 19px;
+    top: 13px;
+
+    border: 1px solid #868C9F;
+    border-radius: 50%;
+}
+.downLine{
+    position: absolute;
+    width: 0px;
+    height: 22.27px;
+    left: 56.05px;
+    top: 28.83px;
+    transform: rotate(120deg);
+    text-align: center;
+    border: 0.5px solid #868C9F;
+}
+.downInputBox{
+    position: absolute;
+    top: 10px;
+    left: 82px;
+    height: 44px;
+    color: #868C9F;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 44px;
+    /* identical to box height */
+    width: 85%;
+    border: none;
+    outline: none;
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.all1{
+    position: absolute;
+    top: 482px;
+    left: 800px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /*padding: 10px;*/
+    gap: 10px;
+
+    width: 196px;
+    height: 57px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.all1Text{
+    width: 64px;
+    height: 39px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #000000;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.all2{
+    position: absolute;
+    top: 482px;
+    left: 1088px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /*padding: 10px;*/
+    gap: 10px;
+
+    width: 196px;
+    height: 57px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+
+}
+.all3{
+    position: absolute;
+    top: 482px;
+    left: 1376px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /*padding: 10px;*/
+    gap: 10px;
+
+    width: 196px;
+    height: 57px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 4;
+    flex-grow: 0;
+}
+.province{
+    position: absolute;
+    top: 491px;
+    left: 1026px;
+    width: 32px;
+    height: 39px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #000000;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.town{
+    position: absolute;
+    top: 491px;
+    left: 1314px;
+    width: 32px;
+    height: 39px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #000000;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.area{
+    position: absolute;
+    top: 491px;
+    left: 1602px;
+    width: 32px;
+    height: 39px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #000000;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.downWhite{
+    position: absolute;
+    width: 1566px;
+    height: 1943px;
+    left: 74px;
+    top: 660px;
+
+    background: linear-gradient(0deg, #FFFFFF, #FFFFFF), #D9D9D9;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+.whiteRight{
+    position: absolute;
+    width: 758px;
+    height: 61px;
+    left: 423px;
+    top: 564px;
+
+    background: linear-gradient(0deg, #FFFFFF, #FFFFFF), #D9D9D9;
+    border-radius: 10px;
+}
+.whiteRight1{
+    position: absolute;
+    top: 6px;
+    left: 18px;
+    white-space: nowrap;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    float: left;
+
+    width: 85px;
+    height: 48px;
+
+    background: #FFFFFF;
+    border-radius: 10px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.whiteRight2{
+    position: absolute;
+    top: 6px;
+    left: 109px;
+    white-space: nowrap;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    float: left;
+
+    width: 85px;
+    height: 48px;
+
+    background: #FFFFFF;
+    border-radius: 10px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.whiteRight3{
+    position: absolute;
+    top: 6px;
+    left: 200px;
+    white-space: nowrap;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    float: left;
+
+    width: 85px;
+    height: 48px;
+
+    background: #FFFFFF;
+    border-radius: 10px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.whiteRight4{
+    position: absolute;
+    top: 6px;
+    left: 291px;
+    white-space: nowrap;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    float: left;
+
+    width: 85px;
+    height: 48px;
+
+    background: #FFFFFF;
+    border-radius: 10px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.whiteRight5{
+    position: absolute;
+    top: 6px;
+    left: 382px;
+    white-space: nowrap;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    float: left;
+
+    width: 85px;
+    height: 48px;
+
+    background: #FFFFFF;
+    border-radius: 10px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.whiteRight6{
+    position: absolute;
+    top: 6px;
+    left: 473px;
+    white-space: nowrap;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    float: left;
+
+    width: 85px;
+    height: 48px;
+
+    background: #FFFFFF;
+    border-radius: 10px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.whiteRight7{
+    position: absolute;
+    top: 6px;
+    left: 564px;
+    white-space: nowrap;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    float: left;
+
+    width: 85px;
+    height: 48px;
+
+    background: #FFFFFF;
+    border-radius: 10px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.whiteRight8{
+    position: absolute;
+    top: 6px;
+    left: 655px;
+    white-space: nowrap;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    float: left;
+
+    width: 85px;
+    height: 48px;
+
+    background: #FFFFFF;
+    border-radius: 10px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.LRF{
+    width: 64px;
+    height: 39px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #000000;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.voc{
+    position: absolute;
+    width: 921px;
+    height: 623px;
+    left: 297px;
+    top: 92px;
+
+    /*background: url(../images/vocPhoto.png);*/
+    /*background-size: contain;*/
+
+}
+.gas{
+    position: absolute;
+    width: 1439px;
+    height: 1067px;
+    left: 81px;
+    top: 769px;
+
+    /*background: url(../images/gasComposition.png);*/
+    /*background-size: contain;*/
+
+}

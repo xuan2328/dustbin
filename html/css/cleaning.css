@@ -1,0 +1,1004 @@
+.mainBox{
+    box-sizing: border-box;
+
+    margin: 200px auto;
+
+    position: relative;
+    width: 1728px;
+    height: 1690px;
+
+    background: rgba(208, 225, 184, 0.5);
+    border: 1px solid #000000;
+}
+.top{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 1728px;
+    height: 119px;
+    left: 0px;
+    top: 0px;
+
+    background: linear-gradient(0deg, #FFFFFF, #FFFFFF), #D9D9D9;
+    border: 1px solid #EDEDF1;
+}
+.down{
+    position: absolute;
+    width: 1728px;
+    height: 1003px;
+    left: 0px;
+    top: 119px;
+    background: url(../images/img.jpg) center;
+    background-size: contain;
+
+}
+.topPhoto{
+    position: absolute;
+    width: 88px;
+    height: 113px;
+    left: 0px;
+    top: 0px;
+    background: url(../images/logo.png);
+    background-size: contain;
+}
+.top1{
+    position: absolute;
+    top: 30px;
+    left: 67px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 10px;
+    gap: 10px;
+    text-align: center;
+    width: 333px;
+    height: 59px;
+
+    background: #FFFFFF;
+    border-radius: 20px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.top1Text{
+    white-space: nowrap;
+    top: 10px;
+    left: 10px;
+    width: 313px;
+    height: 39px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    /* identical to box height */
+
+
+    color: #000000;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.top2{
+    position: absolute;
+    top: 30px;
+    left: 452px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 10px;
+    gap: 10px;
+
+    width: 148px;
+    height: 59px;
+
+    background: #FFFFFF;
+    border-radius: 20px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.top2Text{
+    white-space: nowrap;
+    top: 10px;
+    left: 10px;
+    width: 128px;
+    height: 39px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    /* identical to box height */
+
+
+    color: #000000;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.top3{
+    position: absolute;
+    top: 30px;
+    left: 624px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 10px;
+    gap: 10px;
+
+    width: 148px;
+    height: 59px;
+
+    background: #FFFFFF;
+    border-radius: 20px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.top3Text{
+    white-space: nowrap;
+    top: 10px;
+    left: 10px;
+    width: 128px;
+    height: 39px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    /* identical to box height */
+
+
+    color: #000000;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.top4{
+    position: absolute;
+    top: 30px;
+    left: 816px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 10px;
+    gap: 10px;
+
+    width: 148px;
+    height: 59px;
+
+    background: #FFFFFF;
+    border-radius: 20px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.top4Text{
+    white-space: nowrap;
+    top: 10px;
+    left: 10px;
+    width: 128px;
+    height: 39px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    /* identical to box height */
+
+
+    color: #000000;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.top5{
+    position: absolute;
+    top: 30px;
+    left: 998px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 10px;
+    gap: 10px;
+
+    width: 148px;
+    height: 59px;
+
+    background: #FFFFFF;
+    border-radius: 20px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.top5Text{
+    white-space: nowrap;
+    top: 10px;
+    left: 10px;
+    width: 128px;
+    height: 39px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    /* identical to box height */
+
+
+    color: #000000;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.searchBox{
+    position: absolute;
+    top: 25px;
+    left: 1349px;
+    box-sizing: border-box;
+
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 0px 10px 10px;
+    gap: 10px;
+
+    position: absolute;
+    width: 339px;
+    height: 64px;
+    left: 1349px;
+    top: 25px;
+
+    background: #FFFFFF;
+    border: 1px solid #EDEDF1;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+}
+.rdi{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 19px;
+    top: 13px;
+
+    border: 1px solid #868C9F;
+    border-radius: 50%;
+}
+.line{
+    position: absolute;
+    width: 0px;
+    height: 22.27px;
+    left: 56.05px;
+    top: 28.83px;
+    transform: rotate(120deg);
+    text-align: center;
+    border: 0.5px solid #868C9F;
+}
+.inputBox{
+    position: absolute;
+    top: 10px;
+    left: 82px;
+    outline: none;
+    width: 72%;
+    height: 44px;
+    color: #868C9F;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 44px;
+    /* identical to box height */
+    border: none;
+
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.downSearchBox{
+    position: absolute;
+    top: 142px;
+    left: 46px;
+    box-sizing: border-box;
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 0px 10px 10px;
+    gap: 10px;
+
+    width: 692px;
+    height: 64px;
+
+    background: #FFFFFF;
+    border: 1px solid #EDEDF1;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+}
+.downRdi{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 19px;
+    top: 13px;
+
+    border: 1px solid #868C9F;
+    border-radius: 50%;
+}
+.downLine{
+    position: absolute;
+    width: 0px;
+    height: 22.27px;
+    left: 56.05px;
+    top: 28.83px;
+    transform: rotate(120deg);
+    text-align: center;
+    border: 0.5px solid #868C9F;
+}
+.downInputBox{
+    position: absolute;
+    top: 10px;
+    left: 82px;
+    height: 44px;
+    color: #868C9F;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 44px;
+    /* identical to box height */
+
+    width: 85%;
+    border: none;
+    outline: none;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.conditionState{
+    /* Frame 15 */
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 10px;
+
+    position: absolute;
+    top:161px;
+    left:37px;
+
+    width: 212px;
+    height: 78px;
+
+}
+.conditionStateText{
+    /* 清理状态 */
+    position:absolute;
+
+    width: 192px;
+    height: 58px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 58px;
+    /* identical to box height */
+
+    color: #000000;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.txt{
+    /* 垃圾箱垃圾被清理。 */
+
+
+    position: absolute;
+    width: 324px;
+    height: 44px;
+    left: 44px;
+    top: 267px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 44px;
+    /* identical to box height */
+
+
+    color: #000000;
+}
+
+.ovv{
+    /* 123 */
+
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    position: absolute;
+    top: 340px;
+    left:37px;
+
+    width: 206px;
+    height: 72px;
+
+    background: #FFFFFF;
+    border-radius: 20px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.ovvText{
+    /* 站点查询 */
+    position: absolute;
+
+    width: 64px;
+    height: 39px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    /* identical to box height */
+
+    text-align: center;
+    color: #868C9F;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.dis{
+    /* 123 */
+
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    position: absolute;
+    top: 340px;
+    left: 283px;
+    gap: 10px;
+
+    width: 206px;
+    height: 72px;
+
+    background: #FFFFFF;
+    border-radius: 20px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.disText{
+    /* 站点查询 */
+
+
+    width: 128px;
+    height: 39px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    /* identical to box height */
+    position: absolute;
+
+    text-align: center;
+    color: #868C9F;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.cap{
+    /* 123 */
+
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top:340px;
+    left:529px;
+    gap: 10px;
+
+    width: 206px;
+    height: 72px;
+
+    background: #FFFFFF;
+    border-radius: 20px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+
+.capText{
+    /* 站点查询 */
+
+
+    width: 128px;
+    height: 39px;
+    position: absolute;
+    color: #868C9F;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    /* identical to box height */
+
+    text-align: center;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.con{
+    /* 123 */
+
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 340px;
+    left: 775px;
+    gap: 10px;
+
+    width: 206px;
+    height: 72px;
+
+    background: #FFFFFF;
+    border-radius: 20px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.conText{
+    /* 站点查询 */
+
+
+    width: 128px;
+    height: 39px;
+    color: #868C9F;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    /* identical to box height */
+
+    text-align: center;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.state{
+    /* 123 */
+
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    gap: 10px;
+
+    position: absolute;
+    top:340px;
+    left:1021px;
+
+    width: 206px;
+    height: 72px;
+
+    background: linear-gradient(0deg, #9EB356, #9EB356), linear-gradient(0deg, #5A66F9, #5A66F9), linear-gradient(0deg, #F7FAFA, #F7FAFA), #FFFFFF;
+    border-radius: 20px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.stateText{
+    /* 站点查询 */
+
+
+    width: 128px;
+    height: 39px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    /* identical to box height */
+
+    text-align: center;
+
+    position: absolute;
+    color: #FFFFFF;
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.all1{
+    /* Frame 18 */
+
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    position: absolute;
+    top: 446px;
+    left:802px;
+
+    width: 196px;
+    height: 57px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.all1Text{
+    /* 站点查询 */
+
+    position: absolute;
+
+    width: 64px;
+    height: 39px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #000000;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.all2{
+    /* Frame 19 */
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    position: absolute;
+    top: 446px;
+    left: 1090px;
+    gap: 10px;
+
+    width: 196px;
+    height: 57px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+.all2Text{
+    /* 站点查询 */
+    position: absolute;
+
+    width: 64px;
+    height: 39px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #000000;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.all3{
+    /* Frame 20 */
+
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    position: absolute;
+    top: 446px;
+    left: 1378px;
+
+    width: 196px;
+    height: 57px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 4;
+    flex-grow: 0;
+}
+.all3Text{
+    /* 站点查询 */
+
+    position: absolute;
+
+    width: 64px;
+    height: 39px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #000000;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.province{
+    /* 省 */
+    position: absolute;
+    top: 455px;
+    left: 1028px;
+
+    width: 32px;
+    height: 39px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #000000;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.town{
+    /* 市 */
+
+    position: absolute;
+    top: 455px;
+    left: 1316px;
+
+    width: 32px;
+    height: 39px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #000000;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.area{
+    /* 区 */
+
+    position: absolute;
+    top: 455px;
+    left: 1604px;
+
+    width: 32px;
+    height: 39px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #000000;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.picture{
+    /* image 14 */
+
+    position: absolute;
+    width: 1122px;
+    height: 911px;
+    left: 327px;
+    top: 568px;
+
+    /*background: url(../images/cleaningState.png);*/
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
