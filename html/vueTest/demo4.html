@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="app">
+    <todo>
+        <todo-title slot="todo-title" :title="title"></todo-title>
+        <todo-items slot="todo-items"  v-for="(em,index) in myitems" v-bind:index="index" :item="em"
+        v-on:qremove="testRemove(index)"></todo-items>
+    </todo>
+</div>
+<script src="https://unpkg.com/vue@2.7.10/dist/vue.js"></script>
+<script>
+    Vue.component("todo",{
+        template:'<div>\
+        <slot name="todo-title"></slot>\
+            <ul>\
+                <slot name="todo-items"></slot>\
+            </ul>\
+        </div>'
+    })
+    Vue.component("todo-title",{
+        props:['title'],
+        template:'<div>{{title}}</div>'
+    })
+    Vue.component("todo-items",{
+        props:['item'],
+        template:'<li>{{item}}<button @click="remove">删除</button></li>',
+        methods:{
+            remove:function (index) {
+                this.$emit('qremove',index);
+            }
+        }
+    })
+    var vm = new Vue({
+        el:"#app",
+        data:{
+            title:"李小胖",
+            myitems:['小','小','胖','饱','饱'],
+            message:"!"
+        },
+        methods:{
+            testRemove:function (index) {
+                this.myitems.splice(index,1)
+                alert("嘿嘿")
+            }
+        }
+    })
+</script>
+</body>
+</html>

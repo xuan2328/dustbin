@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="app">
+    <p>{{ctim()}}</p>
+    <p>{{ctim1}}</p>
+
+</div>
+<script src="https://unpkg.com/vue@2.7.10/dist/vue.js"></script>
+<script>
+
+    var vm = new Vue({
+        el:"#app",
+        data:{
+            message:"你好李小胖！"
+        },
+        methods:{
+            ctim:function () {
+                return Date.now();
+            }
+        },
+        computed:{
+            ctim1:function () {
+                return Date.now();
+            }
+        }
+    })
+</script>
+</body>
+</html>
